@@ -1,3 +1,10 @@
+#Visual Studio and Unreal Engine 
+*.sdf
+*.suo
+DerivedDataCache
+Intermediate
+Saved
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

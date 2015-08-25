@@ -2,11 +2,11 @@
 
 #pragma once
 
-#include "GameFramework/Character.h"
+#include "PaperCharacter.h"
 #include "George.generated.h"
 
 UCLASS()
-class UE_GWNS_API AGeorge : public ACharacter
+class UE_GWNS_API AGeorge : public APaperCharacter
 {
 	GENERATED_BODY()
 
@@ -23,6 +23,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
+	UPROPERTY(EditAnywhere)
+		int32 asdf;
+
 	
 };
